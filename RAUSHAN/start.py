@@ -12,7 +12,7 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_photo(
         chat_id=msg.chat.id,
-        photo="https://files.catbox.moe/lezquk.jpg",
+        photo="https://files.catbox.moe/h9o6wo.jpg",
         caption=f"""✦ » ʜᴇʏ  {msg.from_user.mention}  ✤,
 ✦ » ɪ ᴀᴍ {me2},
 
